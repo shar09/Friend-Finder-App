@@ -157,6 +157,7 @@
             </div>
             <div class="modal-body">
                 <p id="match-name"></p>
+                <img id="match-image" style="width:200px;height:200px;" src="">
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -208,6 +209,7 @@
                 //  console.log("survey.html", data);
                 //  alert("adding friend");
                 $("#match-name").text(data.name);
+                $("#match-image").attr("src", data.photo);
                 console.log(data.name);
                 $("#results-modal").modal("toggle");
             }); 

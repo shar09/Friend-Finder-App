@@ -47,14 +47,5 @@ module.exports = function (app) {
         friends.push(newFriend);
         //res.json(newFriend);
 
-        // var bestMatch = {
-        //     name: "",
-        //     photo: "",
-        // };
-
-        // var friend = newFriend.name;
-        // var friendScores = newFriend.scores;
-        
-        
     });
 }
