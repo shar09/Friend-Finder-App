@@ -1,7 +1,7 @@
 var friends = [
     {
         "name": "Ahmed",
-        "photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+        "photo": "https://www.birmingham.ac.uk/Images/Staff/profiles/cem/Ahmed,Zubair.jpg",
         "scores": [
         "5",
         "1",
