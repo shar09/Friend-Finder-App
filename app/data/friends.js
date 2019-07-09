@@ -98,7 +98,7 @@ var friends = [
     },
     {
     "name": "Zorro",
-    "photo": "Zorro",
+    "photo": "https://bit.ly/2XwW1Bv",
     "scores": [
     "3",
     "2",
@@ -113,7 +113,7 @@ var friends = [
     ]
     },
     {
-    "name": "frank",
+    "name": "Frank",
     "photo": "https://unsplash.com/photos/kml8ToIqWN0",
     "scores": [
     "2",
@@ -129,8 +129,8 @@ var friends = [
     ]
     },
     {
-    "name": "cray",
-    "photo": "there",
+    "name": "Cray",
+    "photo": "https://bit.ly/2XwW1Bv",
     "scores": [
     "1",
     "1",
@@ -146,7 +146,7 @@ var friends = [
     },
     {
     "name": "Adam G",
-    "photo": "link",
+    "photo": "https://bit.ly/2XwW1Bv",
     "scores": [
     "4",
     "3",
@@ -161,7 +161,7 @@ var friends = [
     ]
     },
     {
-    "name": "ron",
+    "name": "Ron",
     "photo": "https://pbs.twimg.com/profile_images/758084549821730820/_HYHtD8F.jpg",
     "scores": [
     "4",
@@ -193,7 +193,7 @@ var friends = [
     ]
     },
     {
-    "name": "blahblah",
+    "name": "Marques",
     "photo": "https://images.unsplash.com/photo-1556227703-d6f677369617?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
     "scores": [
     "2",
@@ -209,8 +209,8 @@ var friends = [
     ]
     },
     {
-    "name": "rg",
-    "photo": "rqg",
+    "name": "Dom",
+    "photo": "https://bit.ly/2XwW1Bv",
     "scores": [
     "2",
     "4",
@@ -241,7 +241,7 @@ var friends = [
     ]
     },
     {
-    "name": "john",
+    "name": "John",
     "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpOvBsfgg3sWH7aFI6iq5N6_Cm5eywuhiYtKBUG_c5HT1TwlZ1",
     "scores": [
     "1",
