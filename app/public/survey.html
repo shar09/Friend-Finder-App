@@ -150,7 +150,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Best Match</h5>
+              <h5 class="modal-title" id="results-head">Best Match</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -207,7 +207,7 @@
             $.post("/api/friends", newFriend, function(data) {
                 //  console.log("survey.html", data);
                 //  alert("adding friend");
-                $("#match-name").text(JSON.stringify(data.name));
+                $("#match-name").text(data.name);
                 console.log(data.name);
                 $("#results-modal").modal("toggle");
             }); 
@@ -215,6 +215,7 @@
             else {
                 alert("Please fill out form before submitting");
             }
+
         });
     </script>
 
