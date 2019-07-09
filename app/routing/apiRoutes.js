@@ -22,21 +22,23 @@ module.exports = function (app) {
                 scoreDiff = scoreDiff + Math.abs(parseInt(friends[i].scores[j]-parseInt(newScores[j])));
             }
         }
-        scoresArr.push(scoreDiff);
-        console.log(scoresArr);
+    }    
     
-        for(i=0; i < scoresArr.length; i++) {
-            if(scoresArr[i] <= scoresArr[bestMatch])
-            bestMatch = i;
-        }
- 
-        var soulMate = friends[bestMatch];
-        console.log(soulMate);
-    }
-
     catch(e) {
         console.log("error", e);
     }
+
+    scoresArr.push(scoreDiff);
+    console.log("Scores array:" +scoresArr);
+
+    for(i=0; i < scoresArr.length; i++) {
+        if(scoresArr[i] <= scoresArr[bestMatch])
+        bestMatch = i;
+    }
+
+    var soulMate = friends[bestMatch];
+    res.json(soulMate.name);
+    console.log(soulMate);
 
     //pushing new user to the friends object
     friends.push(newFriend);

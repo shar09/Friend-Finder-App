@@ -146,7 +146,7 @@
         </form>
         
         <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="results-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
@@ -156,14 +156,14 @@
               </button>
             </div>
             <div class="modal-body">
-                <p id="#match-name"></p>
+                <p id="match-name"></p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </div>
     
     <script type="text/javascript">
@@ -205,10 +205,11 @@
             };
 
             $.post("/api/friends", newFriend, function(data) {
-                
-            
                 //  console.log("survey.html", data);
                 //  alert("adding friend");
+                $("#match-name").text(JSON.stringify(data.name));
+                console.log(data.name);
+                $("#results-modal").modal("toggle");
             }); 
             }
             else {
