@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/shar09/Friend-Finder-App#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
